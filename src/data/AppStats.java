@@ -23,18 +23,11 @@ public class AppStats {
     public float getTotalRating() {return totalRating;}
     public void setTotalRating(float totalRating) {this.totalRating = totalRating;}
     
-    public String getHighestApp() {
-        return highestApp;
-    }
-    public void setHighestApp(String highestApp) {
-        this.highestApp = highestApp;
-    }
-    public float getHighestAppRating() {
-        return highestAppRating;
-    }
-    public void setHighestAppRating(float highestAppRating) {
-        this.highestAppRating = highestAppRating;
-    }
+    public String getHighestApp() {return highestApp;}
+    public void setHighestApp(String highestApp) {this.highestApp = highestApp;}
+    
+    public float getHighestAppRating() {return highestAppRating;}
+    public void setHighestAppRating(float highestAppRating) {this.highestAppRating = highestAppRating;}
     public String getLowestApp() {
         return lowestApp;
     }
