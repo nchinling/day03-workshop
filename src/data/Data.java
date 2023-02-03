@@ -17,8 +17,8 @@ public class Data {
     
     public static void main(String[] args) throws IOException{
         Path p = Paths.get("googleplaystore.csv");
-        File f =p.toFile();
-        InputStream is = new FileInputStream(f);
+        File file =p.toFile();
+        InputStream is = new FileInputStream(file);
         InputStreamReader isr = new InputStreamReader(is);
         BufferedReader br = new BufferedReader(isr);
         
